@@ -18,7 +18,7 @@
         android:layout_above="@+id/freshchat_contact_us_group"
         android:visibility="gone" />
 
-    <android.support.v4.widget.ContentLoadingProgressBar
+    <androidx.core.widget.ContentLoadingProgressBar
         android:id="@+id/freshchat_article_list_cl_progressbar"
         style="?android:attr/progressBarStyleLarge"
         android:layout_width="wrap_content"

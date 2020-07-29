@@ -963,6 +963,181 @@
 
     </style>
 
+<!-- custom -->
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyCustomTheme" parent="Theme.Freshchat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryCustomeTheme</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkCustomTheme</item>
+        <item name="colorAccent">@color/colorAccentCustomTheme</item>
+        <item name="freshchatChannelAltIconStyle">@style/channelIconStyle</item>
+        <item name="freshchatChannelListStyle">@style/ChannelListStyle</item>
+        <item name="freshchatFAQCategoryAltIconStyle">@style/FAQCategoryAltIconStyle</item>
+        <item name="freshchatFAQCategoryListItemStyle">@style/FAQCategoryListItem</item>
+        <item name="freshchatFAQListStyle">@style/FAQArticlesListStyle</item>
+        <item name="freshchatFAQListItemStyle">@style/TextAppearance.Freshchat.BodyOneMedium</item>
+        <item name="freshchatFAQDownvoteButtonStyle">@style/VotingPromptDownVoteButton</item>
+        <item name="freshchatFAQUpvoteButtonStyle">@style/VotingPromptUpVoteButton</item>
+        <item name="freshchatFAQVotingPromptViewStyle">@style/VotingPromptView</item>
+        <item name="freshchatFAQVotingPromptTextStyle">@style/VotingPromptTextStyle</item>
+        <item name="freshchatFAQListEmptyTextStyle">@style/FAQEmpty</item>
+        <item name="freshchatTeamMemberAvatarIcon">@drawable/freshchat</item>
+        <item name="freshchatChatResolutionPromptViewStyle">@style/ChatResolutionPromptView</item>
+        <item name="freshchatChatResolutionPromptTextStyle">@style/ChatResolutionPromptText</item>
+        <item name="freshchatChatResolutionNegativeButtonStyle">@style/ChatResolutionNegativeButton</item>
+        <item name="freshchatChatResolutionPositiveButtonStyle">@style/ChatResolutionPositiveButton</item>
+        <item name="freshchatCustomerSurveyDialog">@style/SurveyDialog</item>
+        <item name="freshchatCustomerSurveyCommentsInputViewStyle">@style/CustomerFeedBackDialog</item>
+        <item name="freshchatCustomerSurveyQuestionTextStyle">@style/CustomerSurveyQuestion</item>
+
+    </style>
+
+    <style name="ChatResolutionPromptView" parent="Widget.Freshchat.ChatResolutionPromptView">
+      <item name="android:background">@color/freshchat_white</item>
+    </style>
+
+    <style name="ChatResolutionPromptText" parent="Widget.Freshchat.ChatResolutionPromptText">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/fc_text_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="ChatResolutionNegativeButton" parent="Widget.Freshchat.ChatResolutionNegativeButton">
+        <item name="android:background">@drawable/down_vote_btn</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginStart">25dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="ChatResolutionPositiveButton" parent="Widget.Freshchat.ChatResolutionPositiveButton">
+        <item name="android:background">@drawable/upvote_btn</item>
+        <item name="android:textColor">@color/freshchat_white</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:layout_marginEnd">25dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="SurveyDialog" parent="Widget.Freshchat.CustomerSurveyDialog.Light">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomerSurveyQuestion" parent="Widget.Freshchat.CustomerSurveyQuestionStyle">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/fc_text_color</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="CustomerFeedBackDialog" parent="Widget.Freshchat.CustomerSurveyCommentsEditText">
+        <item name="android:background">@drawable/input_box_style</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:height">60dp</item>
+    </style>
+
+    <style name="FAQCategoryListItem" parent="Widget.Freshchat.FAQCategoryListItem">
+        <item name="android:elevation">1.5dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="FAQEmpty" parent="Widget.Freshchat.FAQListEmptyText">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/fc_text_color</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+    <style name="VotingPromptTextStyle" parent="Widget.Freshchat.FAQVotingPromptText">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/fc_text_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+    <style name="VotingPromptView" parent="Widget.Freshchat.FAQVotingPromptView">
+        <item name="android:layout_height">100dp</item>
+        <item name="android:background">@color/freshchat_white</item>
+    </style>
+
+    <style name="VotingPromptDownVoteButton" parent="Widget.Freshchat.FAQDownvoteButton">
+        <item name="android:background">@drawable/down_vote_btn</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginStart">25dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="VotingPromptUpVoteButton" parent="Widget.Freshchat.FAQUpvoteButton">
+        <item name="android:background">@drawable/upvote_btn</item>
+        <item name="android:textColor">@color/freshchat_white</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:layout_marginEnd">25dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+
+    </style>
+
+    <style name="TextAppearance.Freshchat.BodyOneMedium" parent="TextAppearance.Freshchat.BodyOne">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/fc_text_color</item>
+    </style>
+
+    <style name="TextAppearance.Freshchat.BodyOne" >
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">@dimen/fc_font_size_body_one</item>
+    </style>
+
+
+    <style name="FAQArticlesListStyle" parent="Widget.Freshchat.FAQList">
+        <item name="android:background">@color/freshchat_white</item>
+        <item name="android:divider">@drawable/divider</item>
+
+    </style>
+
+    <style name="DemoFreshchatContactUs" parent="Widget.Freshchat.ContactUs">
+        <item name="android:background">@drawable/freshchat_contact_us_btn_bg</item>
+    </style>
+
+    <style name="channelIconStyle" parent="Widget.Freshchat.ChannelAltIcon">
+        <item name="android:background">@drawable/freshchat_channel_alt_text_bg</item>
+    </style>
+
+    <style name="ChannelListStyle" parent="Base.Widget.AppCompat.ListView">
+        <item name="android:background">@color/freshchat_white</item>
+    </style>
+
+    <style name="FAQCategoryAltIconStyle" parent="Widget.Freshchat.FAQCategoryAltIcon">
+        <item name="android:background">@drawable/freshchat_faq_category_alt_text_bg</item>
+    </style>
+
+    <style name="Theme.Freshchat.SelectedTheme" parent="MyCustomTheme" />
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
 </resources>

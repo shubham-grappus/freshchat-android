@@ -133,4 +133,30 @@
     <color name="freshchat_calendar_event_card_bg">@android:color/transparent</color>
     <color name="freshchat_calendar_meeting_banner_color">#243756</color>
 
+    <!-- customizes -->
+
+    <color name="colorPrimary">@color/colorPrimaryCustomeTheme</color>
+    <color name="colorPrimaryDark">@color/colorPrimaryDarkCustomTheme</color>
+    <color name="colorAccent">@color/colorPrimaryCustomeTheme</color>
+
+    <color name="colorPrimaryCustomeTheme">#1c225b</color>
+    <color name="colorPrimaryDarkCustomTheme">#171b4a</color>
+    <color name="colorAccentCustomTheme">#1c225b</color>
+
+    <color name="unity_dark_blue">@color/colorPrimaryCustomeTheme</color>
+    <color name="unity_darker_blue">#225699</color>
+
+    <color name="hotline_transparent">@android:color/transparent</color>
+
+    <color name="fc_divider">@color/fc_grey_darker</color>
+
+    <color name="fc_grey_darker">#E1E2E6</color>
+
+    <color name="hotline_white">#FFFFFF</color>
+    <color name="hotline_white_grey">#EEEEEE</color>
+    <color name="hotline_white_grey_medium">#e1e1e1</color>
+
+    <color name="channel_icon">#1C225B</color>
+
+    <color name="fc_text_color">#DB091E42</color>
 </resources>

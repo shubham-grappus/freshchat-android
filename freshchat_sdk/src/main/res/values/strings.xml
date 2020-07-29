@@ -8,7 +8,7 @@
 
 	<string name="freshchat_chat_deeplink">@string/freshchat_view_text</string>
 	<string name="freshchat_chat_deeplink_faq">View FAQ</string>
-	<string name="freshchat_chat_message_composer_hint">Type a message</string>
+	<string name="freshchat_chat_message_composer_hint">Typeing a message</string>
 	<string name="freshchat_chat_capture_from_camera">Take a picture</string>
 	<string name="freshchat_chat_select_from_gallery">Upload from gallery</string>
 

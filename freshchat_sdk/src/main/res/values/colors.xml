@@ -39,7 +39,7 @@
     <color name="freshchat_grey_darkest">#707C92</color>
 
     <!-- Misc Colors -->
-    <color name="freshchat_white">#ffffffff</color>
+    <color name="freshchat_white">#f00f00ff</color>
     <color name="freshchat_black">#ff000000</color>
     <color name="freshchat_background_light">#F6F8FA</color>
     <color name="freshchat_text_color">#707070</color>
@@ -60,9 +60,9 @@
     <color name="freshchat_seekbar_sec_progress_center">#80FFB600</color>
     <color name="freshchat_seekbar_sec_progress_end">#A0FFCB00</color>
 
-    <color name="freshchat_visualizer_bg_start">#FFFFFF</color>
-    <color name="freshchat_visualizer_bg_center">#FFFFFF</color>
-    <color name="freshchat_visualizer_bg_end">#FFFFFF</color>
+    <color name="freshchat_visualizer_bg_start">#f00f00</color>
+    <color name="freshchat_visualizer_bg_center">#f00f00</color>
+    <color name="freshchat_visualizer_bg_end">#f00f00</color>
 
     <color name="freshchat_visualizer_progress_start">#505050</color>
     <color name="freshchat_visualizer_progress_center">#505050</color>
@@ -76,7 +76,7 @@
     <color name="freshchat_contact_us_btn_bg_pressed">#1976D2</color>
 
     <color name="freshchat_message_unknown_bg_stoke">#26091E42</color>
-    <color name="freshchat_message_unknown_bg_solid">#B0FFFFFF</color>
+    <color name="freshchat_message_unknown_bg_solid">#B0f00f00</color>
 
     <!--Quick replies-->
     <color name="freshchat_quick_reply_chip_bg">#1976D2</color>
@@ -101,7 +101,7 @@
     <color name="freshchat_calendar_minor_text_color">#8A091E42</color>
 
     <color name="freshchat_calendar_solid_button_bg_color">#0053BF</color>
-    <color name="freshchat_calendar_solid_button_text_color">#FFFFFF</color>
+    <color name="freshchat_calendar_solid_button_text_color">#f00f00</color>
 
     <color name="freshchat_calendar_find_slot_bg">@color/freshchat_calendar_solid_button_bg_color</color>
     <color name="freshchat_calendar_find_slot_text">@color/freshchat_calendar_solid_button_text_color</color>
@@ -152,7 +152,7 @@
 
     <color name="fc_grey_darker">#E1E2E6</color>
 
-    <color name="hotline_white">#FFFFFF</color>
+    <color name="hotline_white">#f00f00</color>
     <color name="hotline_white_grey">#EEEEEE</color>
     <color name="hotline_white_grey_medium">#e1e1e1</color>
 
